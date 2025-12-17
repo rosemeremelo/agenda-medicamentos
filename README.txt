@@ -1,6 +1,6 @@
 Ultima Atividade Avaliativa da Disciplina Programação Web
-Aluna: Rosemere da Silva Vilela de Melo
-RGA: 202326400037
+Aluna: Rosemere Melo
+
 
 
 Este projeto desenvolvido para uma aplicação web desenvolvida com  os tópicos aplicados em sala de aula:
