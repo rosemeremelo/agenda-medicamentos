@@ -1,0 +1,73 @@
+body {
+    background-image: url('../img/mila_tomando_remedio.png');
+    /*background-size: cover;*/
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: cursive;
+}
+
+/* Título */
+.titulo {
+    text-align: center;
+    color: #805c4e;
+    background-color: #dfa7745f;
+    padding: 20px;
+    font-size: 40px;
+}
+
+/* Caixa central */
+.container {
+    background-color: rgba(124, 86, 86, 0.6);
+    padding: 40px;
+    width: 350px;
+    border-radius: 30px;
+    margin: 60px auto;
+    color: rgb(56, 39, 28);
+}
+
+/* Formulário */
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #956c5a;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+button:hover {
+    background-color: #805c4e;
+}
+
+/* Feedback */
+.sucesso {
+    margin-top: 15px;
+    color: #352b28;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: #805c4e50;
+    color: #352b28;
+    padding: 15px;
+    text-align: center;
+}

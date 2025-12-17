@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}Cadastro de Medicamentos{% endblock %}
+
+{% block content %}
+<section class="container">
+
+    <form method="POST">
+        <label>Nome da criança:</label>
+        <input type="text" name="crianca" required>
+
+        <label>Nome do remédio:</label>
+        <input type="text" name="remedio" required>
+
+        <label>Dosagem:</label>
+        <select name="dosagem" required>
+            <option value="">Selecione</option>
+            <option value="Gotas">Gotas</option>
+            <option value="ml">Mililitros (ml)</option>
+            <option value="Comprimido">Comprimido</option>
+        </select>
+
+        <label>Quantidade:</label>
+        <input type="text" name="quantidade" required>
+
+        <button type="submit">Salvar</button>
+    </form>
+
+    {% if mensagem %}
+        <p class="sucesso">{{ mensagem }}</p>
+    {% endif %}
+
+</section>
+{% endblock %}
